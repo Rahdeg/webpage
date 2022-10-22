@@ -1,4 +1,4 @@
-import {Profile,Link} from './components'
+import {Profile,Link, Footer} from './components'
 import './App.css';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className="flex flex-col h-screen gap-4">
     <Profile/>
     <Link/>
+    <Footer/>
     </div>
   );
 }
