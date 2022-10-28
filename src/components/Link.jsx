@@ -6,16 +6,9 @@ const Link = () => {
     <div className='flex items-center justify-center flex-col gap-5'>
     {
         Linkdata && Linkdata.map((data,idx)=>(
-            <button class=" bg-gray-400 hover:bg-gray-500  text-black font-normal hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded w-2/3" key={idx} 
-            onClick={(e) => window.open(data.site, "_blank")}>
-            <p className='flex items-center justify-center gap-5 '>
-            {data.name}
-            <a href={data.github} target="_blank" rel="noreferrer">       
-            {data.iconSrc}          
-            </a>
-            </p>
-            
-            </button>
+          <a href={data.site} target="_blank" rel="noreferrer" key={idx}
+  className=" bg-gray-400 flex items-center justify-center hover:bg-gray-500 text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded w-2/3">{data.name}</a>
+           
         ))
     }
     </div>
