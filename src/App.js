@@ -1,5 +1,6 @@
-import {Profile,Link, Footer, Social} from './components'
+import { Footer, Main,Contact} from './components'
 import Menu from './assets/_Avatar share button.png'
+import {Route,Routes} from 'react-router-dom'
 import './App.css';
 
 function App() {
@@ -8,9 +9,10 @@ function App() {
     <div className='flex  items-center justify-end md:hidden w-full h-full'>
     <img src={Menu} alt=''/>
     </div>
-    <Profile/>
-    <Link/>
-    <Social/>
+    <Routes>
+    <Route path='/*' element={<Main/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    </Routes>
     <Footer/>
     </div>
   );

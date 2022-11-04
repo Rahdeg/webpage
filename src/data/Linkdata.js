@@ -43,5 +43,11 @@ export const Linkdata = [
         site:"https://books.zuri.team/design-rules",
         iconSrc: <FaGlobeAfrica className="text-textBase text-3xl cursor-pointer" />
       },
+      {
+        id: "contact",
+        name: "Contact Me",
+        site:"/contact",
+        iconSrc: <FaGlobeAfrica className="text-textBase text-3xl cursor-pointer" />
+      },
     
   ];
