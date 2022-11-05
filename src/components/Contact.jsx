@@ -19,7 +19,7 @@ const Contact = () => {
             </label>
             <input
               class="shadow appearance-none border rounded py-2 h-80 w-full px-3 lg:w-350 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="first-name"
+              id="first_name"
               type="text"
               placeholder="Enter your first name"
             />
@@ -33,7 +33,7 @@ const Contact = () => {
             </label>
             <input
               class="shadow appearance-none border rounded  h-80 w-full lg:w-350 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="last-name"
+              id="last_name"
               type="text"
               placeholder="Enter your last name"
             />
