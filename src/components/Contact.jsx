@@ -7,7 +7,7 @@ const Contact = () => {
       <form class="bg-white  px-8 pt-6 pb-8 mb-4">
       <div className="flex flex-col gap-3 ">
       <h1 className=" text-3xl md:text-2xl font-bold  text-primary">Contact Me</h1>
-      <p className=" text-sm text-textColor tracking-wider">Hi there,contact me to ask me about anything you have in mind.</p>
+      <p className=" text-sm text-textColor tracking-wider">Hi   there,contact me to ask me about anything you have in mind.</p>
       </div>
         <div className="flex flex-col md:flex-row w-full gap-5 mt-6">
           <div className="mb-4">
