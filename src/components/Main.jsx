@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from './Link'
+import Link from './Links'
 import Social from './Social'
 import Profile from './Profile'
 import Menu from '../assets/_Avatar share button.png'
